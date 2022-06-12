@@ -35,29 +35,13 @@ export default function Home() {
           gap="20"
         >
           <ProjectCard
-            title="Javascript Frameworks CA"
+            title="Semester Project 2"
             description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-            tech={["BOOTSTRAP", "SASS", "Javascript"]}
-            imageUrl="https://images.pexels.com/photos/158316/kinzig-fischer-bach-black-forest-water-158316.jpeg"
-            imageAlt="Rear view of modern home with pool"
-            githubUrl="https://google.com"
-          />
-          <ProjectCard
-            title="Javascript Frameworks CA"
-            description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-            tech={["BOOTSTRAP", "SASS", "Javascript"]}
-            imageUrl="https://images.pexels.com/photos/158316/kinzig-fischer-bach-black-forest-water-158316.jpeg"
-            imageAlt="Rear view of modern home with pool"
-            githubUrl="https://google.com"
-          />
-          <ProjectCard
-            title="Javascript Frameworks CA"
-            description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-            tech={["BOOTSTRAP", "SASS", "Javascript"]}
-            imageUrl="https://images.pexels.com/photos/158316/kinzig-fischer-bach-black-forest-water-158316.jpeg"
-            imageAlt="Rear view of modern home with pool"
-            githubUrl="https://google.com"
-            websiteUrl="https://arkentype.com"
+            tech={["Javascript", "SASS", "Rest API", "HTML"]}
+            imageUrl="./assets/MusicPortScreenshot.png"
+            imageAlt="A screenshot of Music Port's homepage"
+            githubUrl="https://github.com/oysteinwangen/oystein-wangen-semester-project-2"
+            websiteUrl="https://wangen-sp2.netlify.app/"
           />
         </Box>
       </main>
