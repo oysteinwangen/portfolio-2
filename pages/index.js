@@ -3,6 +3,7 @@ import styles from "../styles/Home.module.css";
 import DarkModeSwitch from "../components/DarkModeSwitch";
 import ProjectCard from "../components/card/ProjectCard";
 import HomeHero from "../components/home/HomeHero";
+import Contact from "../components/home/Contact";
 import { Box } from "@chakra-ui/react";
 
 export default function Home() {
@@ -50,6 +51,15 @@ export default function Home() {
             imageAlt="A screenshot of the homepage"
             githubUrl="https://github.com/Noroff-FEU-Assignments/js-frameworks-course-assignment-oysteinwangen"
           />
+        </Box>
+        <Box
+          display="flex"
+          alignItems="center"
+          justifyContent="center"
+          flexDirection="column"
+          minH="30vh"
+        >
+          <Contact />
         </Box>
       </main>
 
