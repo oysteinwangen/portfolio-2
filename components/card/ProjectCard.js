@@ -26,17 +26,6 @@ const ProjectCard = (props) => {
     { disconnectOnLeave: false },
     {}
   );
-  console.log(inViewport);
-
-  /* const project = {
-    imageUrl:
-      "https://images.pexels.com/photos/158316/kinzig-fischer-bach-black-forest-water-158316.jpeg",
-    imageAlt: "Rear view of modern home with pool",
-    tech: ["BOOTSTRAP", "SASS", "Javascript"],
-    title: "Javascript Frameworks CA",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-  }; */
 
   const techStackJoined = props.tech.join(" • ");
 
@@ -92,6 +81,7 @@ const ProjectCard = (props) => {
                 maxH="90vh"
                 maxW="90vw"
                 src={props.imageUrl}
+                alt={props.imageAlt}
               />
             </ModalContent>
           </Modal>

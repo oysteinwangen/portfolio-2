@@ -1,10 +1,9 @@
 import Head from "next/head";
-import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import DarkModeSwitch from "../components/DarkModeSwitch";
 import ProjectCard from "../components/card/ProjectCard";
 import HomeHero from "../components/home/HomeHero";
-import { Box, Center } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 
 export default function Home() {
   return (
