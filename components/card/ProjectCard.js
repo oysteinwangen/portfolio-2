@@ -120,11 +120,21 @@ const ProjectCard = (props) => {
           </Box>
           <Stack mt="10" direction={["column", "row", "row"]} spacing={4}>
             <NextLink href={props.githubUrl} passHref>
-              <Button leftIcon={<Icon as={AiFillGithub} />}>GitHub</Button>
+              <Button
+                as="a"
+                target="_blank"
+                leftIcon={<Icon as={AiFillGithub} />}
+              >
+                GitHub
+              </Button>
             </NextLink>
             {props.websiteUrl ? (
               <NextLink href={props.websiteUrl} passHref>
-                <Button leftIcon={<Icon as={AiOutlineLink} />}>
+                <Button
+                  as="a"
+                  target="_blank"
+                  leftIcon={<Icon as={AiOutlineLink} />}
+                >
                   Live website
                 </Button>
               </NextLink>
