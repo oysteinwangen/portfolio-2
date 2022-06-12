@@ -14,7 +14,7 @@ const Contact = () => {
         >
           Contact me
         </Text>
-        <NextLink href="#projects" passHref>
+        <NextLink href="mailto:hello@wangen.digital" passHref>
           <Link>hello@wangen.digital</Link>
         </NextLink>
       </VStack>

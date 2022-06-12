@@ -51,6 +51,14 @@ export default function Home() {
             imageAlt="A screenshot of the homepage"
             githubUrl="https://github.com/Noroff-FEU-Assignments/js-frameworks-course-assignment-oysteinwangen"
           />
+          <ProjectCard
+            title="CSS Frameworks CA"
+            description="This is a feature project made to become familiar with the Bootstrap integration with React, also using SASS to extend and customize the Bootstrap-library."
+            tech={["React", "Bootstrap"]}
+            imageUrl="./assets/CSSFrameworksCAScreenshot.png"
+            imageAlt="A screenshot of the homepage"
+            githubUrl="https://github.com/Noroff-FEU-Assignments/css-frameworks-ca-oysteinwangen"
+          />
         </Box>
         <Box
           display="flex"
