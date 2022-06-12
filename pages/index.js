@@ -42,6 +42,14 @@ export default function Home() {
             githubUrl="https://github.com/oysteinwangen/oystein-wangen-semester-project-2"
             websiteUrl="https://wangen-sp2.netlify.app/"
           />
+          <ProjectCard
+            title="JS Frameworks CA"
+            description="JS Frameworks CA is a specific feature project utilising several different technologies based around the React framework. It's based on API requests, a simple UI, and basic form and authentication functions that can be ported to all kinds of projects."
+            tech={["Next.js", "Tailwind CSS", "Rest API", "Formik", "Yup"]}
+            imageUrl="./assets/JSFrameworksCAScreenshot.png"
+            imageAlt="A screenshot of the homepage"
+            githubUrl="https://github.com/Noroff-FEU-Assignments/js-frameworks-course-assignment-oysteinwangen"
+          />
         </Box>
       </main>
 
